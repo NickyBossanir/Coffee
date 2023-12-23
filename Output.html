@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+ <head>
+   <meta charset="UTF-8">
+   <title>Barista Strange</title> <!--Title is "Barista Strange"-->
+   <link rel="stylesheet" type="text/css" href="stylesheets/Output.css"> <!--Link to CSS File-->
+ </head>
+ <body>
+
+    <header>
+        <header>
+            <div class="brand-name">Barista Strange</div>
+            <div><a href="Homepage.html" class="Homepage">Homepage</a></div>
+        </header>
+    </header>
+    
+
+  <!--  コンテンツを一旦仮置きする  -->
+  
+  <div class="output">
+
+    <div class="text">味の評価値は</div>
+    <a href="Input.html">
+        <button class="Button1">Try Again</button>
+    </a>
+
+    <div class="column">
+        <div class="input-group">
+            <label for="酸味">酸味:</label>
+            {{ prediction1 }}
+        </div>
+
+        <div class="input-group">
+            <label for="ボディ">ボディ:</label>
+            <span id="prediction2">{{ prediction2 }}</span>
+        </div>
+
+        <div class="input-group">
+            <label for="甘さ">甘さ:</label>
+            <span id="prediction3">{{ prediction3 }}</span>
+        </div>
+    
+        <div class="input-group">
+            <label for="バランス">バランス:</label>
+            <span id="prediction4">{{ prediction4 }}</span>
+        </div>
+        <!--AI Result Output-->
+    </div>
+    <!--AI結果の導入-->
+</div>
+
+
+</div>
+
+
+  <!--  コンテンツはここまで  -->
+  
+<footer>
+    <small>© 2023 Nicky Wu</small>
+</footer>
+
+ </body>
+</html>

@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  header{
+    display: flex;
+    justify-content: flex-start; /* 靠左对齐 */
+    align-items: center; /* 垂直居中对齐 */
+    padding-left: 10px; /* 左边空白 */
+    text-decoration: none;
+    position:fixed;
+    width: 100%;
+    top:0;
+    height: 80px;
+    background-color: #f0f0f0;
+
+  }
+
+  .logo {
+    width: 40px; /* 设置logo的宽度，可以根据需要调整 */
+    height: auto; /* 保持宽高比 */
+    margin-right: 10px; /* 右边留白 */
+}
+
+  .brand-name {
+    font-size: 1.5em; /* 设置品牌名字的字体大小，可以根据需要调整 */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+  .Homepage{
+    font-size: 1em; /* 设置品牌名字的字体大小，可以根据需要调整 */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    padding-left: 40px;
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120vh;
+    margin: 0;
+    background-image: url(../Pictures/Coffeebeans2.jpg);
+    background-size: cover; /* 背景图尺寸覆盖整个body */
+    background-position: center; /* 图片居中 */
+    background-repeat: no-repeat; /* 不重复平铺 */
+}
+
+.text {
+    color: white;
+  font-family: Georgia, "游明朝", "Yu Mincho", "游明朝体", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho ProN", "MS P明朝", "MS PMincho", HGS明朝E, "MS Mincho", serif;
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  top: 20vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.input-container {
+    display: flex;
+    align-items: top;
+    width: 60%;
+    font-family: Georgia, "游明朝", "Yu Mincho", "游明朝体", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho ProN", "MS P明朝", "MS PMincho", HGS明朝E, "MS Mincho", serif;
+    gap: 200px;
+    padding-bottom: 20vh;
+
+}
+
+.column {
+    margin-top: 150px;
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+
+.input-group {
+    margin-bottom: 0px;
+    margin-right: 20px;
+}
+
+.Button1 {
+    position:absolute;
+    top: 97%;
+    right: 44%;
+
+    background-color: #f0f0f0;
+    border-radius: 12px;
+    text-decoration: none;
+    border: 1px solid #424b50;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .Button1:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #f0f0f0;
+    border: 1px solid #ccc
+  }
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+}
+
+footer{
+    position:absolute;
+    width: 100%;
+    top:120vh;
+
+    height: 50px;
+    background-color: #424b50;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: #fff;
+    
+  }

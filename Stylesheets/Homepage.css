@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  header{
+    display: flex;
+    justify-content: flex-start; /* 靠左对齐 */
+    align-items: center; /* 垂直居中对齐 */
+    padding-left: 20px; /* 左边空白 */
+    position:fixed;
+    width: 100%;
+    top:0;
+    height: 80px;
+    background-color: #f0f0f0;
+  }
+  .logo {
+    width: 40px; /* 设置logo的宽度，可以根据需要调整 */
+    height: auto; /* 保持宽高比 */
+    margin-right: 10px; /* 右边留白 */
+}
+
+  .brand-name {
+    font-size: 1.5em; /* 设置品牌名字的字体大小，可以根据需要调整 */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+  .header-nav {
+    background-color: #f0f0f0;
+    position: fixed;
+    height: 80px;
+    width: 100%;
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+
+  .Button1 {
+    position:absolute;
+    top:120%;
+
+    right: 10%;
+
+    background-color: #f0f0f0;
+    border-radius: 12px;
+    text-decoration: none;
+    border: 1px solid #424b50;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .Button1:hover{
+    background-color: #424b50;
+    color: #f0f0f0;
+    border: 1px solid #ccc
+  }
+
+  .Background {
+    height: 500px;
+    background-color: #f0f0f0;
+  }
+
+  .Picture_Coffee {
+    width: 100%;
+    height: 580px;
+    object-fit: cover;
+    object-position: 0px 0px;
+ }
+
+  .centered-text {
+  color: white;
+  font-family: Georgia, "游明朝", "Yu Mincho", "游明朝体", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho ProN", "MS P明朝", "MS PMincho", HGS明朝E, "MS Mincho", serif;
+  position: absolute;
+  font-size: 60px;
+  font-weight: bold;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+  .bottom-text {
+  color: black;
+  font-family: Georgia, "游明朝", "Yu Mincho", "游明朝体", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho ProN", "MS P明朝", "MS PMincho", HGS明朝E, "MS Mincho", serif;
+  position: absolute;
+  font-size: 20px;
+  top: 860px;
+  left: 55%;
+  transform: translate(-50%, -50%);
+}
+  
+  .second-block {
+    height: 650px;
+    background-color: #f0f0f0;
+  }
+
+  .Picture_Brewing {
+    width: 23%;
+    position: absolute;
+    top: 645px;
+    left:120px;
+ }
+
+ footer{
+
+  height: 50px;
+  background-color: #424b50;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  color: #fff;
+  
+}
